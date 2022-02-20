@@ -13,3 +13,18 @@
     width:150px;
     height:150px;
 }
+ul {
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    margin-left:0;
+    padding-top:10px;
+    font-size:12px;
+}
+ul li a {
+    text-decoration: none;
+    color:whitesmoke;
+}
+ul li a #separater {
+    margin-right:auto;
+}
