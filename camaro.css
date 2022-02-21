@@ -33,4 +33,6 @@ ul li a {
 }
 #main {
     font-family: 'Titillium Web', sans-serif;
+    font-size: 100px;
+    color: whitesmoke;
 }
