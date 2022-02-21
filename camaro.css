@@ -77,3 +77,26 @@ ul li a {
 #button:hover {
     cursor: pointer;
 }
+#top-row {
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    box-sizing: border-box;
+    width:50%;
+    top: -220px;
+    left: 300px;
+    color:rgb(146, 143, 143);
+    font-size: 10px;
+    font-family: 'Titillium Web', sans-serif;
+}
+#bottom-row {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    box-sizing: border-box;
+    width: 50%;
+    top:-220px;
+    left:300px;
+    color:aliceblue;
+    font-family: 'Titillium Web', sans-serif;
+}
