@@ -36,3 +36,10 @@ ul li a {
     font-size: 100px;
     color: whitesmoke;
 }
+#sub {
+    font-family: 'Titillium Web', sans-serif;
+    font-size:50px;
+    letter-spacing: 20px;
+    margin-top: -25px;
+    color:whitesmoke;
+}
