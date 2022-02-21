@@ -53,5 +53,13 @@ ul li a {
     position: relative;
     left: 110px;
     top:-110px;
-    transform: skewY(-10deg);
+    transform: skewY(-15deg);
+}
+#text {
+    position:relative;
+    z-index: 1;
+    color:whitesmoke;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    top: -300px;
 }
