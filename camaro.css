@@ -40,7 +40,7 @@ ul li a {
 #sub {
     font-family: 'Titillium Web', sans-serif;
     font-size:50px;
-    letter-spacing: 20px;
+    letter-spacing: 10px;
     margin-top: -25px;
     color:whitesmoke;
     z-index: 1;
@@ -49,4 +49,9 @@ ul li a {
     width:500px;
     height:300px;
     z-index: 2;
+    /* position img */
+    position: relative;
+    left: 110px;
+    top:-110px;
+    transform: skewY(-10deg);
 }
