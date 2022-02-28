@@ -61,10 +61,8 @@ ul {
   z-index: 99;
   top: 0;
   right: 0;
-  background: var(--dark-background);
+  background: rgb(40, 42, 54);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(50px);
   width: 50%;
   min-height: 100vh;
   overflow-x: hidden;
