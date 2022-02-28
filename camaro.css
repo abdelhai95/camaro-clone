@@ -172,6 +172,9 @@ ul {
     margin-top: -5rem;
     margin-bottom: 3rem;
   }
+  .menu-btn {
+    display: none;
+  }
 }
 @media (max-width: 950px) {
   #main {
@@ -185,10 +188,15 @@ ul {
     bottom: 0;
     right: 5%;
   }
+  #car-img {
+    width: 550px;
+    height: 300px;
+  }
   .car-details {
     display: grid;
     place-content: center;
-    height: 70vh;
+    height: 80vh;
+    margin-top: 2rem;
   }
   .chevrolet-text {
     margin-left: 3rem;
@@ -198,8 +206,11 @@ ul {
     margin-left: 2rem;
     margin-bottom: 2rem;
   }
+  .menu-btn {
+    display: none;
+  }
 }
-@media (max-width: 865px) {
+@media (max-width: 900px) {
   #main {
     font-size: 70px;
   }
@@ -216,8 +227,15 @@ ul {
   .menu-btn {
     display: block;
   }
+  .chevrolet-text {
+    margin-left: 3rem;
+  }
+  .car-container {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
   .car-details {
-    height: 80vh;
+    margin-top: 10rem;
   }
 }
 @media (max-width: 600px) {
