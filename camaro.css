@@ -66,6 +66,7 @@ ul {
   width: 50%;
   min-height: 100vh;
   overflow-x: hidden;
+  transition: all ease-in-out 0.3s;
 }
 .navlist-container.open .mobile-nav-items {
   display: flex;
